@@ -1,0 +1,42 @@
+@font-face{
+    font-family:phone_display;
+    src: url(fonts/neuropolitical.ttf);
+   
+}
+@font-face{
+    font-family:heading;
+    src: url(fonts/carbon.ttf);
+}
+@font-face{
+    font-family:figcapt;
+    src:url(fonts/libel-suit-rg.ttf);
+
+}
+figure{
+    font-family:figcapt;
+}
+img.front
+{
+ overflow: hidden;
+ height:30%;
+ width:50%;   
+}
+.phone
+{padding:6% 10% 10% 10%;
+font-size: 120%;
+font-family:phone_display;
+align-content: center;
+}
+.phone>figure>figcaption{
+    font-weight: bold;
+}
+
+h2{
+font-family: heading;
+}
+
+div.txt
+{
+    padding: 2% 8% auto 10px;
+
+}
