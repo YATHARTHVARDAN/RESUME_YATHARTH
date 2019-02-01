@@ -19,37 +19,55 @@ img.front
 {margin-left:25%;
     margin-right:auto;
  border-top-left-radius: 10px;
- border-top-right-radius: 20px;
- border-bottom-right-radius: 20px;
+ border-top-right-radius: 30px;
+ border-bottom-right-radius: 30px;
  border-bottom-left-radius: 10px;
  height:30%;
  width:50%;   
 }
 img.contact{
-height:12%;
-width:40%;
+height:6%;
+width:20%;
+}
+img.call{
+    height:10%;
+    width:12%;
+}
+img.address
+{
+height:10%;
+width:18%;
 }
 .phone
 {
-font-size: 120%;
+
 font-family:phone_display;
 
 }
 .phone>figure>figcaption{
     font-weight: bold;
     text-align:center;
+    margin-top:4%;
+    font-size:180%;
+    margin-bottom:10%;
 }
 
 h2{
 font-family: heading;
 }
-h3.contact
-{
-    text-align: center;
-}
+
 
 div.txt
 {
     padding: 2% 8% auto 10px;
 
+}
+object
+{
+    float:left;
+    margin-right:30%;
+}
+div.contact,div.call,div.address
+{
+    margin:2% auto 3% auto;
 }
