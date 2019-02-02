@@ -25,18 +25,20 @@ img.front
  height:30%;
  width:50%;   
 }
-img.contact{
-height:6%;
-width:20%;
-}
-img.call{
-    height:10%;
-    width:12%;
-}
-img.address
+img.contact
 {
-height:10%;
-width:18%;
+    -webkit-transition: width 10s, height 10s;
+    transition: width 10s, height 10s;
+    -moz-transition: width 10s, height 10s;
+}
+img.contact:hover
+{
+  width:122%; height:10%;
+  cursor: -webkit-grab;
+}
+img.contact:focus
+{
+    cursor: -webkit-grabbing;
 }
 .phone
 {
@@ -70,4 +72,43 @@ object
 div.contact,div.call,div.address
 {
     margin:2% auto 3% auto;
+}
+
+div.contacttxt
+{
+    padding-top:8%;
+}
+img.in
+{   padding-left:2%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+div.con
+{
+    padding-left:10%;
+    padding-right:8%;
+    align-content: center
+}
+ul{
+    list-style-type:none;  overflow:hidden; margin-left:15%;
+}
+li{
+    float:left; padding:2% 10% 4% 5%;
+}
+nav{ position: sticky;
+    background-color: azure;
+}
+img.mobile
+{  
+    height:20%;
+    width:10%;
+}
+header{
+    background-color: azure;
+    padding-right: 10%;
+}
+header>img
+{
+    background-position: left;
 }
