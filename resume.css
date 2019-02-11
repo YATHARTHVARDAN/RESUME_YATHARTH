@@ -27,10 +27,12 @@ img.front
 }
 img.contact
 {
+    
     -webkit-transition: width 10s, height 10s;
     transition: width 10s, height 10s;
     -moz-transition: width 10s, height 10s;
 }
+
 img.contact:hover
 {
   width:122%; height:10%;
@@ -111,4 +113,35 @@ header{
 header>img
 {
     background-position: left;
+}
+h3
+{   padding:6% auto 6% auto;
+    text-align: center;
+    background-color: aqua;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width:60%;
+    font-family:phone_display;
+}
+
+h4{
+    font-size: 120%;
+    font-family: figcapt;
+}
+h4.bot
+{
+    margin-top:2%;
+}
+div.txt
+{
+    margin-top: 15%;
+    margin-bottom:15%;
+}
+
+div.txt2
+{
+    margin-top:15%;
+    margin-bottom:15%;
 }
